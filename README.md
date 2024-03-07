@@ -4,7 +4,7 @@ Tecnologie innovative per la piattaforma unica della Trasparenza
 Obiettivi
 ---------
 
-L'obietto principale di questo progetto lo studio, progettazione e realizzazione di una piattaforma
+L'obietto di questo progetto è lo studio, progettazione e realizzazione di una piattaforma
 automatizzata per la raccolta, l’analisi e la validazione delle informazioni relative alla
 Trasparenza Amministrativa presenti sui siti delle PA e dei soggetti che rientrano nel campo di
 applicazione del d.lgs. n. 33/2013, contribuendo alla progettazione della piattaforma unica per la
