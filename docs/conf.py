@@ -22,7 +22,7 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-project = 'TAPITA - Transparency Analysis Platform for cnrn Public Administration Websites'
+project = 'TAPITA - Transparency Analysis Platform for Italian Public Administration Websites'
 release = '1.0.0'
 author = u'Consiglio Nazionale delle Ricerche'
 
