@@ -2,16 +2,18 @@ Architettura della soluzione
 ============================
 
 La piattaforma è composta da molti componenti, integrati in una architettura a
-microservizi comunicanti tramite il paradigma REST.
-Ogni microservizio è realizzato con framework Opensource e rilasciato a sua
-volta come Opensource. Anche tutti i componenti infrastrutturali utilizzati
-nella piattaforma sono Opensource, azzerando i costi di licenza e permettendo
-una totale riusabilità di questa piattaforma per scopi uguali o analoghi a
-quelli per cui è stata pensata. 
+microservizi, comunicanti tramite il paradigma REST.
+Ogni microservizio è realizzato con framework opensource e rilasciato a sua
+volta come software opensource. 
+Anche tutti i componenti infrastrutturali utilizzati nella piattaforma sono 
+opensource, azzerando i costi di licenza e permettendo una totale riusabilità
+di questa piattaforma per scopi uguali o analoghi a quelli per cui è stata
+pensata.
 
 È previsto un accesso differenziato alle funzionalità della piattaforma, 
-tramite un sistema di autenticazione e autorizzazione basati sul protocollo
+tramite un sistema di autenticazione e autorizzazione basato sul protocollo
 OAuth2 e dei ruoli predefiniti inseriti nel token JWT.
+
 Sia l'interfaccia WEB, realizzata dal componente *UI Service*, che ogni API
 REST, è integrata quindi con un IDP OAuth2.
 IL servizio in staging realizzato per ANAC utilizza

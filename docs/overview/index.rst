@@ -34,10 +34,10 @@ di colmare questa lacuna attraverso l’adozione di strumenti tecnologici
 avanzati.
 
 L'architettura della piattaforma realizzata è composta da molti componenti
-integrati tra di loro, questo repository contiene la documentazione 
-dell'architettura generale, dei singoli componenti e dei risultati di
-validazione ottenuti.
+integrati tra di loro, qui puoi trovare la documentazione dell'architettura
+generale, dei singoli componenti e dei risultati di validazione ottenuti.
 
-Sei interessato al codice sorgente della piattaforma lo puoi trovare su github:
+Se sei interessato al codice sorgente della piattaforma lo puoi trovare su
+github:
 
-   * https://github.com/cnr-anac
+  * https://github.com/cnr-anac

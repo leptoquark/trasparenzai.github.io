@@ -11,7 +11,7 @@ applicazione del d.lgs. n. 33/2013, contribuendo alla progettazione della piatta
 trasparenza amministrativa finalizzata alla diffusione delle informazioni delle PA e facilitarne
 la fruizione.
 
-L'archifettura della piattaforma realizzata è composta da molti componenti integrati tra di loro,
+L'architettura della piattaforma realizzata è composta da molti componenti integrati tra di loro,
 questo repository contiene la documentazione dell'architettura generale, dei singoli componenti e
 dei risultati di validazione ottenuti.
 
@@ -19,7 +19,7 @@ Generazione della documentazione
 --------------------------------
 
 Tutta la documentazione è presente nella cartella docs ed è scritta in formato restructuredText.
-Per poter generare la documentazione è necessario installare le dipendente python tramite il comando
+Per poter generare la documentazione è necessario installare le dipendenze python tramite il comando
 
 ```
 pip install -r requirements.txt
