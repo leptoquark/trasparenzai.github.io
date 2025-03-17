@@ -3,7 +3,7 @@ document:
   name: "TransparenzAI"
   description: "Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
   github_user: cnr-anac
-  github_repo: tranparenzai-doc
+  github_repo: trasparenzai-doc
   github_version: main/docs
   downloads:
     - type: epub
