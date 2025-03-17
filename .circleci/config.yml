@@ -3,7 +3,7 @@ version: 2
 jobs:
   docs-build:
     docker:
-      - image: ghcr.io/sphinx-doc/sphinx-latexpdf:7.1.2
+      - image: ghcr.io/sphinx-doc/sphinx-latexpdf:7.2.6
     steps:
       - checkout
       - run:
@@ -28,7 +28,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "b1:58:9b:2f:7c:c2:a8:13:17:00:ff:54:de:6e:87:01"
+            - "SHA256:1WBi2toG3UT3dRHQIKB9ur78gBMBinG+3Bh54cwlA/g"
       - checkout
       - attach_workspace:
           at: _build
