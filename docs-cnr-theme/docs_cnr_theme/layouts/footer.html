@@ -1,0 +1,42 @@
+<!--
+  ~ Copyright (C) 2020  Consiglio Nazionale delle Ricerche
+  ~
+  ~     This program is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU Affero General Public License as
+  ~     published by the Free Software Foundation, either version 3 of the
+  ~     License, or (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU Affero General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU Affero General Public License
+  ~     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<footer class="it-footer bg-light">
+  <div class="row justify-content-md-center">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="https://www.cnr.it" target="_blank">
+        <img class="team-logo--icon" src="{{ pathto('_static/images/logo_CNR.png', 1) }}" alt="Consiglio Nazionale delle Ricerche" />
+      </a>
+    </div>
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="https://www.anticorruzione.it" target="_blank">
+        <img class="team-logo--icon" src="{{ pathto('_static/images/anac.png', 1) }}" alt="Autorità Nazionale AntiCorruzione" />
+      </a>
+    </div>
+  </div><!--/row-->
+
+  <div class="row justify-content-md-center">
+    <ul class="col list-inline small">
+      {% for link in site.data.footer_links %}
+      <li class="list-inline-item">
+        <strong><a class="footer-menu__link text-light-blue small-prints" href="{{ link.url }}">{{ t[link.title] }}</a></strong>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</footer>

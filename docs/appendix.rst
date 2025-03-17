@@ -5,7 +5,6 @@ Appendice
 Autori
 ------
 
-.. codeauthor::  Giancarlo Birello <giancarlo.birello@cnr.it>
 .. codeauthor::  Ivan Duca <ivan.duca@cnr.it>
 .. codeauthor::  Dario Elia <dario.eman@gmail.com>
 .. codeauthor::  Claudia Greco <claudia.greco@cnr.it>

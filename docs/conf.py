@@ -22,9 +22,9 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-project = 'TAPITA - Transparency Analysis Platform for cnrn Public Administration Websites'
+project = "TrasparenzAI - Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
 release = '1.0.0'
-author = u'Consiglio Nazionale delle Ricerche'
+author = u'Consiglio Nazionale delle Ricerche - Autorità Nazionale Anticorruzione'
 
 # Version è utilizzato per la produzione dell'ePUB
 version = release
@@ -33,20 +33,21 @@ show_authors = True
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'tapita.tex', project, author, 'manual'),
+    ('index', 'trasparenzai.tex', project, author, 'manual'),
 ]
 latex_elements = {
     'extraclassoptions': 'openany,oneside'
 }
-epub_basename = u'Tapita'
+epub_basename = u'TrasparenzAI'
 
 html_theme = "docs_cnr_theme"
 html_theme_path = [docs_cnr_theme.get_html_theme_path()]
 # These folders are copied to the documentation's HTML output
 html_static_path = ['_static']
 
-copyright = "2024 Consiglio Nazionale delle Ricerche"
-html_title = "Transparency Analysis Platform for cnrn Public Administration Websites"
+copyright = "2025 Consiglio Nazionale delle Ricerche"
+html_title = "Documentazione progetto TrasparenzAI"
+
 html_show_sourcelink = False
 html_favicon = "_static/images/favicon.ico"
 html_logo = 'logo.png'

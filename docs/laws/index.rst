@@ -1,4 +1,0 @@
-Riferimenti normativi
-=====================
-
-[TODO]

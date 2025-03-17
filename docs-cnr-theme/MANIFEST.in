@@ -1,0 +1,16 @@
+include *.txt
+include LICENSE
+include package.json
+recursive-include docs_cnr_theme *.conf
+recursive-include docs_cnr_theme *.css
+recursive-include docs_cnr_theme *.eot
+recursive-include docs_cnr_theme *.html
+recursive-include docs_cnr_theme *.js
+recursive-include docs_cnr_theme *.svg
+recursive-include docs_cnr_theme *.png
+recursive-include docs_cnr_theme *.ttf
+recursive-include docs_cnr_theme *.woff
+recursive-include docs_cnr_theme *.woff2
+recursive-include docs_cnr_theme/data *.yaml
+recursive-include docs_cnr_theme/data *.yml
+recursive-include docs_cnr_theme/data *.json

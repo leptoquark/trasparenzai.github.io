@@ -1,12 +1,12 @@
 --- 
 document:
-  name: "TAPITA - Transparency Analysis Platform for Italian Public Administration Websites"
-  description: "Piattaforma di crawling ed analisi Trasparenza Amministrativa siti web Pubbliche amministrazioni italiane"
+  name: "TransparenzAI"
+  description: "Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
   github_user: cnr-anac
-  github_repo: tranparency-doc
-  github_version: master/docs
+  github_repo: tranparenzai-doc
+  github_version: main/docs
   downloads:
     - type: epub
-      url: tapita.epub
+      url: trasparenzai.epub
     - type: pdf
-      url: tapita.pdf
+      url: trasparenzai.pdf

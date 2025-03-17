@@ -1,36 +1,41 @@
-TAPITA - Transparency Analysis Platform for Italian Public Administration Websites
-==================================================================================
+TrasparenzAI
+============
 
-L'obietto principale di questo progetto lo studio, progettazione e realizzazione di una piattaforma
-automatizzata per la raccolta, l’analisi e la validazione delle informazioni relative alla
-Trasparenza Amministrativa presenti sui siti delle PA e dei soggetti che rientrano nel campo di
-applicazione del d.lgs. n. 33/2013, contribuendo alla progettazione della piattaforma unica per la
-trasparenza amministrativa finalizzata alla diffusione delle informazioni delle PA e facilitarne
-la fruizione.
+**Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni**
 
-L'archifettura della piattaforma realizzata è composta da molti componenti integrati tra di loro,
-questo repository contiene la documentazione dell'architettura generale, dei singoli componenti e
-dei risultati di validazione ottenuti.
+La trasparenza amministrativa rappresenta un pilastro fondamentale per il buon 
+funzionamento delle istituzioni pubbliche, garantendo ai cittadini, agli 
+operatori economici e agli organismi di controllo la possibilità di accedere in
+modo semplice e immediato alle informazioni riguardanti l’attività delle
+Pubbliche Amministrazioni. 
 
-Sei interessato al codice sorgente della piattaforma lo puoi trovare su github:
+Il Decreto Legislativo 33/2013 ha istituito l’obbligo per le amministrazioni di
+pubblicare una serie di dati, documenti e informazioni nella sezione
+**Amministrazione Trasparente**, con l’obiettivo di prevenire fenomeni di
+corruzione e di favorire una maggiore accountability.
 
-  * https://github.com/cnr-anac/public-sites-service
-  * https://github.com/cnr-anac/rule-service
-  * https://github.com/cnr-anac/result-service
-  * https://github.com/cnr-anac/conductor
+Tuttavia, l’applicazione di questa normativa si è rivelata nel tempo complessa
+e disomogenea, generando difficoltà sia per le amministrazioni stesse, che
+devono gestire la pubblicazione e l’aggiornamento dei dati, sia per gli utenti
+finali, che incontrano ostacoli nell’individuazione e nella consultazione delle
+informazioni.
+
+A fronte di queste criticità, la piattaforma *TrasparenzAI* nasce con lo scopo
+di semplificare e rendere più efficiente l’accesso e il monitoraggio delle 
+informazioni pubblicate nella sezione Amministrazione Trasparente dei siti 
+delle amministrazioni pubbliche.
+
+La piattaforma è disponibile all'indirizzo:
+ - https://www.trasparenzai.it
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :numbered:
+   :hidden:
    :caption: Indice dei contenuti
 
    overview/index
-   laws/index
    architecture/index
    components/index
    results/index
-
-.. toctree::
-   :hidden:
-
    appendix

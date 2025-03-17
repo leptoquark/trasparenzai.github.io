@@ -1,2 +1,9 @@
 .project
 _build
+bin/
+lib/
+lib64
+share/
+.pydevproject
+.settings
+pyvenv.cfg
