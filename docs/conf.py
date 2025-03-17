@@ -46,7 +46,7 @@ html_theme_path = [docs_cnr_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
 copyright = "2025 Consiglio Nazionale delle Ricerche"
-html_title = "Documentazione progetto TrasparenzAI"
+html_title = "Documentazione progetto TrasparenzAI (Bozza non definitiva)"
 
 html_show_sourcelink = False
 html_favicon = "_static/images/favicon.ico"
