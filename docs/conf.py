@@ -69,5 +69,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
+    'sphinx_new_tab_link',
     'docs_cnr_theme'
 ]
