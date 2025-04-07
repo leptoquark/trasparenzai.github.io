@@ -70,5 +70,6 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'sphinx_new_tab_link',
+    'sphinx.ext.autosectionlabel',
     'docs_cnr_theme'
 ]
