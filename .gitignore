@@ -6,4 +6,5 @@ lib64
 share/
 .pydevproject
 .settings
+.vscode
 pyvenv.cfg
