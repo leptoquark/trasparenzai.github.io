@@ -177,8 +177,8 @@ def generate_additonal_tocs(app, pagename, templatename, context, doctree):
             glossary_toc.extend(glossary_element.children)
         glossary_toc = glossary_toc.children[0].children[0].children[1]
 
-    pages_with_fignumbers = (x for x in pages_list if x in app.env.toc_fignumbers)
-    for page in pages_with_fignumbers:
+    # pages_with_fignumbers = (x for x in pages_list if x in app.env.toc_fignumbers)
+    for page in app.env.toc_fignumbers:
         doctree_page = app.env.get_doctree(page)
 
         for figurenode in doctree_page.traverse(figure):
