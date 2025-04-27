@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ language }}" class="no-js" prefix="og: http://ogp.me/ns#">
-
+<html
+  {% if language is not none %} lang="{{ language }}"{% endif %}
+  data-content_root="{{ content_root }}"
+>
 {% include 'layouts/head.html' %}
 
-<body class="{{ site.css_theme }}">
+<body class="{{ site.css_theme }}" role="main">
   {% include 'layouts/loader_show_script.html' %}
   {% include 'layouts/header.html' %}
 
