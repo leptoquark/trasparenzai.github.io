@@ -70,7 +70,7 @@ module.exports = themeToolTip = (function($) {
       that.$btnGlossary.each(function(index) {
         var title = $(this).attr('href'),
           hashIndex = title.indexOf("#"),
-          title = title.substring(hashIndex + 1, title.length).replace('term-', '');
+          title = title.substring(hashIndex + 1, title.length).replace('term-', '').replace('-', ' ');
 
         $(this).attr('data-toggle', 'popover').attr('tabindex', index).attr('role', 'button').attr('data-trigger', 'manual').attr('data-html', 'true').attr('title', title).attr('data-ref', index);
         if (themeToolTip.getDesktop()) {
