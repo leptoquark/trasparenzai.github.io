@@ -5,7 +5,7 @@ module.exports = themeGlossary = (function ($) {
   return {
 
     $: {
-      $url: '/trasparenzai-doc/_static/data/glossary.json',
+      $url: '/_static/data/glossary.json',
       $glossary: {},
       callback: {}
     },
