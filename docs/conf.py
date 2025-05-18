@@ -48,12 +48,12 @@ html_static_path = ['_static']
 copyright = "2025 Consiglio Nazionale delle Ricerche"
 html_title = "Documentazione progetto TrasparenzAI (Bozza non definitiva)"
 
-html_show_sourcelink = False
+html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
 html_logo = 'logo.png'
 latex_logo = 'logo.png'
 html_baseurl = 'docs'
-smartquotes = False
+smartquotes = True
 language = "it"
 numfig = True
 # The master toctree document.
