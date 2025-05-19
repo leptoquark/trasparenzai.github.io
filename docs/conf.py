@@ -1,4 +1,4 @@
-#  Copyright (C) 2024  Consiglio Nazionale delle Ricerche
+#  Copyright (C) 2025  Consiglio Nazionale delle Ricerche
 #
 #      This program is free software: you can redistribute it and/or modify
 #      it under the terms of the GNU Affero General Public License as
@@ -46,7 +46,7 @@ html_theme_path = [docs_cnr_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
 copyright = "2025 Consiglio Nazionale delle Ricerche"
-html_title = "Documentazione progetto TrasparenzAI (Bozza non definitiva)"
+html_title = "Documentazione progetto TrasparenzAI"
 
 html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
