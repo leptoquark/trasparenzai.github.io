@@ -6,7 +6,5 @@ document:
   github_repo: trasparenzai.github.io
   github_version: main/docs
   downloads:
-    - type: epub
-      url: trasparenzai.epub
     - type: pdf
-      url: trasparenzai.pdf
+      url: ../trasparenzai.pdf
