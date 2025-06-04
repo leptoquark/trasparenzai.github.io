@@ -43,7 +43,7 @@ La sezione è composta da un carousel che permette di scorrere la cronologia dei
 Il link *"LEGGI DI PIU' ->"* mostra la distribuzione geografica dei dati del singolo controllo.
 
 .. _home-carousel-img:
-.. figure:: images/ui-carousel.png
+.. figure:: images/ui_carousel.png
   :width: 800
   :alt: Home Page - Carousel
 
