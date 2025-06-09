@@ -14,14 +14,14 @@ Attraverso la sezione “Mappa delle Amministrazioni”, l’utente accede a una
 Il sistema consente uno zoom progressivo che, da macro-cluster regionali, permette di arrivare fino al dettaglio delle singole amministrazioni, con accesso diretto alla scheda di ciascun ente e alle sue informazioni specifiche.
 
 .. _mappa_amministrazioni_zoom-1-img:
-.. figure:: images/ui_mappa_amministrazioni_zoom-1.png
+.. figure:: images/ui-mappa_amministrazioni_zoom-1.png
   :width: 800
   :alt: Menù - Mappa delle Amministrazioni zoom 1
 
   Menù "Mappa delle Amministrazioni" - zoom 1
 
 .. _mappa_amministrazioni_zoom-2-img:
-.. figure:: images/ui_mappa_amministrazioni_zoom-2.png
+.. figure:: images/ui-mappa_amministrazioni_zoom-2.png
   :width: 800
   :alt: Menu - Mappa delle Amministrazioni zoom 2
 
