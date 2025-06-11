@@ -1,4 +1,4 @@
-Menù "Grafici e Mappe" -> "Mappa per Regola"
+Menù "Mappa per Regola" ("Grafici e Mappe")
 ==============================================
 
 La voce di menù "Grafico per Regola" permette di accedere alla rappresentazione grafica geolocalizzata dei risultati generati da ogni scansione. Il menù a tendina "Nome della Regola" permette di selezionare la sezione dell'albero Amministrazione Trasparente di cui si vuole mostrare una lo stato su scala geografica.
@@ -50,6 +50,6 @@ La figura di sotto mostra il livello di zoom massimo con identificazione della s
 .. _mappa-per-regola-zoom-4-img:
 .. figure:: images/ui-mappa_per_regola_zoom-4.png
   :width: 800
-  :alt: Menù "Mappa per Regola" - Grafici per macro aree zoom 4
+  :alt: Menù "Mappa per Regola" - singola amministrazione
 
-  Menù "Mappa per Regola" - Grafici per macro aree zoom 4
+  Menù "Mappa per Regola" - singola amministrazione
