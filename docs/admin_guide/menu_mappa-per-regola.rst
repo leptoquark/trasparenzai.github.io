@@ -1,5 +1,5 @@
 Menù "Mappa per regola" ("Grafici e Mappe")
-==============================================
+===========================================
 
 La voce di menù "Grafico per regola" permette di accedere alla rappresentazione grafica geolocalizzata dei risultati generati da ogni scansione. Il menù a tendina "Nome della Regola" permette di selezionare la sezione dell'albero Amministrazione Trasparente di cui si vuole mostrare una lo stato su scala geografica.
 Attraverso la funzione di zoom è possibile definire la dimensione spaziale da visualizzare ed i relativi dati aggregati per area. La funzione di zoom permette di arrivare fino alla singola amministrazione per visualizzarne i risultati della scansione.
