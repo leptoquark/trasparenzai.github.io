@@ -27,7 +27,7 @@ Il menù a tendina «Nome della Regola» permette la selezione dei dati di scans
   :width: 800
   :alt: Menù "Mappa per regola" - selezione "Nome della Regola"
 
-  Menù Menù "Mappa per regola" - selezione "Nome della Regola"
+  Menù "Mappa per regola" - selezione "Nome della Regola"
 
 Le seguenti 3 figure mostrano visualizzazioni della sezione principale Amministrazione Trasparente con livelli di zoom differenti.
 
