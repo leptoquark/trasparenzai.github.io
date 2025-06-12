@@ -24,7 +24,7 @@ source_parsers = {
 
 project = "TrasparenzAI - Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
 release = '1.0.0'
-author = u'CNR - ANAC'
+author = u'Consiglio Nazionale delle Ricerche'
 
 # Version è utilizzato per la produzione dell'ePUB
 version = release
