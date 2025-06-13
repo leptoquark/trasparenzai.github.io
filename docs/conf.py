@@ -22,7 +22,7 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-project = "TrasparenzAI - Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
+project = "Piattaforma TrasparenzAI - Analisi e consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
 release = '1.0.0'
 author = u'Consiglio Nazionale delle Ricerche'
 
