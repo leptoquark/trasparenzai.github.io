@@ -33,7 +33,7 @@ show_authors = True
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'trasparenzai.tex', project, author, 'manual'),
+    ('index', 'manuale-trasparenzai.tex', project, author, 'manual'),
 ]
 latex_elements = {
     'extraclassoptions': 'openany,oneside'
@@ -46,7 +46,7 @@ html_theme_path = [docs_cnr_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
 copyright = "2025 Consiglio Nazionale delle Ricerche"
-html_title = "Documentazione progetto TrasparenzAI"
+html_title = "Piattaforma TrasparenzAI"
 
 html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
