@@ -28,6 +28,7 @@ author = u'CNR - ANAC'
 
 # Version è utilizzato per la produzione dell'ePUB
 version = release
+language = 'it'
 
 show_authors = True
 # Grouping the document tree into LaTeX files. List of tuples
