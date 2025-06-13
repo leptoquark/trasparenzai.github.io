@@ -8,3 +8,5 @@ document:
   downloads:
     - type: PDF
       url: ../manuale-trasparenzai.pdf
+    - type: EPUB
+      url: ../manuale-trasparenzai.epub
