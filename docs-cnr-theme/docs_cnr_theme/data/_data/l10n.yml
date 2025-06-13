@@ -6,6 +6,7 @@ it:
     locale: it_IT
     about_these_documents: Informazioni su questi documenti
     active_lang: lingua attiva
+    contents: Contenuti
     cookiebar_accept: Accetto
     cookiebar_msg: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
     cookiebar_privacy_policy: Cookie policy
@@ -43,7 +44,7 @@ it:
     comments: commenti
     back_to_text: torna al testo
     glossary_empty: informazione non trovata
-    glossary: glossario
+    glossary: Glossario
     go_to_glossary: vai al glossario
     deepening: approfondimento
     example: esempio
@@ -57,10 +58,10 @@ it:
     consultation: consultazione
     show_more: mostra tutto
     show_less: mostra meno
-    content_index: indice dei contenuti
-    table_index: indice delle tabelle
-    figures_index: indice delle figure
-    figures: figure
+    content_index: Indice dei contenuti
+    table_index: Indice delle tabelle
+    figures_index: Indice delle figure
+    figures: figura 
     tables: tabelle
     contents: contenuti
     in_consultation: in consultazione
@@ -71,7 +72,7 @@ it:
     no_glossary: nessun glossario
     no_figures: nessuna figura
     no_tables: nessuna tabella
-    summary: sommario
+    summary: Sommario
     project: Progetto
     administration: Amministrazione
     info: Informazioni

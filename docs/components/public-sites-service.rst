@@ -6,7 +6,7 @@ principali relative agli enti pubblici italiani ed in particolare i siti
 istituzionali.
 
 Public Sites Service mantiene nel proprio datastore locale le informazioni 
-egli enti che possono essere inserite/aggiornate tramite gli OpenData di 
+degli enti che possono essere inserite/aggiornate tramite gli OpenData di 
 :term:`IndicePA`, oppure inserite tramite appositi servizi endopoint REST.
 
 L'idea è quella di avere una fonte facile da consultare e estendibile delle
@@ -30,7 +30,7 @@ per:
  * inserire, aggiornare e cancellare le informazioni degli Enti all'interno del
    servizio (direttamente senza passare da :term:`IndicePA`)
 
-Il servizio sincronizza e rendere disponibili via REST anche le informazioni 
+Il servizio sincronizza e rende disponibili via REST anche le informazioni 
 dei comuni italiani, prelevendo ogni notte il CSV dal sito dell'ISTAT dei comuni
 e aggiornando questo info dentro il servizio stesso. Le info dei comuni servono
 anche per effettuare una geolocalizzazione più precisa degli enti, che su 
@@ -47,15 +47,12 @@ Il codice sorgente di questo componente è disponibile su GitHub:
 OpenAPI e Swagger UI
 --------------------
 
-Una volta avviato il servizio i servizi REST sono documentati tramite OpenAPI 
+Una volta avviato il servizio, i servizi REST sono documentati tramite OpenAPI 
 e consultabili all'indirizzo /swagger-ui/index.html.
 
 .. figure:: images/openapi-public-sites-service.png
   :width: 800
   :alt: Interfaccia Swagger UI all'OpenAPI del servizio
-
-L'OpenAPI del servizio di staging è disponibile all'indirizzo 
-https://dica33.ba.cnr.it/public-sites-service/swagger-ui/index.html.
 
 
 Mappa delle PA Italiane
@@ -73,7 +70,7 @@ Sicurezza
 
 Gli endpoint REST di questo servizio sono protetti tramite autenticazione OAuth
 con Bearer Token.
-E' necessario configurare l'idp da utilizzare per validare i token OAuth tramite
+È necessario configurare l'idp da utilizzare per validare i token OAuth tramite
 le due proprietà mostrate nell'esempio seguente::
 
   - spring.security.oauth2.resourceserver.jwt.issuer-uri=https://dica33.ba.cnr.it/keycloak/realms/trasparenzai

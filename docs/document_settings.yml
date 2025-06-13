@@ -1,10 +1,12 @@
 --- 
 document:
-  name: "TransparenzAI"
+  name: "Piattaforma TransparenzAI"
   description: "Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
   github_user: trasparenzai
   github_repo: trasparenzai.github.io
-  github_version: main/docs
+  github_version: master/docs
   downloads:
-    - type: pdf
-      url: ../trasparenzai.pdf
+    - type: PDF
+      url: ../manuale-trasparenzai.pdf
+    - type: EPUB
+      url: ../manuale-trasparenzai.epub

@@ -22,9 +22,9 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-project = "TrasparenzAI - Piattaforma per l'analisi e la consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
+project = "Piattaforma TrasparenzAI - Analisi e consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
 release = '1.0.0'
-author = u'CNR - ANAC'
+author = u'Consiglio Nazionale delle Ricerche'
 
 # Version è utilizzato per la produzione dell'ePUB
 version = release
@@ -34,12 +34,12 @@ show_authors = True
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'trasparenzai.tex', project, author, 'manual'),
+    ('index', 'manuale-trasparenzai.tex', project, author, 'manual'),
 ]
 latex_elements = {
     'extraclassoptions': 'openany,oneside'
 }
-epub_basename = u'TrasparenzAI'
+epub_basename = u'manuale-trasparenzai'
 
 html_theme = "docs_cnr_theme"
 html_theme_path = [docs_cnr_theme.get_html_theme_path()]
@@ -47,12 +47,12 @@ html_theme_path = [docs_cnr_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
 copyright = "2025 Consiglio Nazionale delle Ricerche"
-html_title = "Documentazione progetto TrasparenzAI"
+html_title = "Piattaforma TrasparenzAI"
 
 html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
 html_logo = 'logo.png'
-latex_logo = 'logo.png'
+latex_logo = 'logo_trasparenzai_300x300.jpg'
 html_baseurl = 'docs'
 smartquotes = True
 language = "it"

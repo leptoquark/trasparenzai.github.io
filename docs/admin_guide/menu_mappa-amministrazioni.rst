@@ -1,7 +1,7 @@
 Menù "Mappa delle Amministrazioni"
 ==================================
 
-Il menù "Mappa delle Amministrazioni" offre una visualizzazione geografica interattiva dei risultati ottenuti. L'utente può consultare grafici a torta che sintetizzano la conformità delle sezioni “Amministrazione Trasparente” per macro-aree. Zoomando sulla mappa, è possibile arrivare fino al dettaglio delle singole amministrazioni, visualizzando informazioni puntuali sulla conformità normativa di ciascun Ente.
+Il menù "Mappa delle Amministrazioni" (:numref:`mappa_amministrazioni-img`) accede alla funzione di visualizzazione geografica e ricerca interattiva delle Amministrazioni. L'utente può individuare l'Amministrazione che intende visualizzare attraverso la navigazione della mappa geografica o attivando la rilevazione della geolocalizzazione del dispositivo. Nel caso di attivazione della geolocalizzazione, la piattaforma visualizza le Amministrazioni presenti nell'area in cui è posizionato l'utente (si precisa che le coordinate geografiche di posizione sono gestite dal dispotivo utente e non vengono acquisite dalla piattaforma).
 
 .. _mappa_amministrazioni-img:
 .. figure:: images/ui-mappa_amministrazioni.png
@@ -10,8 +10,7 @@ Il menù "Mappa delle Amministrazioni" offre una visualizzazione geografica inte
 
   Menù "Mappa delle Amministrazioni" - immagine generale
 
-Attraverso la sezione “Mappa delle Amministrazioni”, l’utente accede a una rappresentazione geospaziale delle PA. Ogni area geografica è rappresentata da un grafico a torta che sintetizza il livello di conformità degli enti pubblici locali. Cliccando sulle aree, è possibile visualizzare i risultati per provincia e comune.
-Il sistema consente uno zoom progressivo che, da macro-cluster regionali, permette di arrivare fino al dettaglio delle singole amministrazioni, con accesso diretto alla scheda di ciascun ente e alle sue informazioni specifiche.
+Utilizzando la funzione di "zoom" disponibile sul dispositivo utente (touch screen per i sistemi mobile e tablet, oppure la rotellina del mouse per i PC) è possibile ridimensionare la mappa (:numref:`mappa_amministrazioni_zoom-1-img`) fino al dettaglio della singola Amministrazione (:numref:`mappa_amministrazioni_zoom-2-img`), visualizzarne le informazioni e consultare i dati pubblicati della trasparenza amministrativa (:numref:`mappa_amministrazioni_selezione-img`).
 
 .. _mappa_amministrazioni_zoom-1-img:
 .. figure:: images/ui-mappa_amministrazioni_zoom-1.png
@@ -26,3 +25,10 @@ Il sistema consente uno zoom progressivo che, da macro-cluster regionali, permet
   :alt: Menu - Mappa delle Amministrazioni zoom 2
 
   Menù "Mappa delle Amministrazioni" - zoom 2
+
+.. _mappa_amministrazioni_selezione-img:
+.. figure:: images/ui-mappa_amministrazioni_selezione.png
+  :width: 800
+  :alt: Menù - Mappa delle Amministrazioni - analisi Amministrazione
+
+  Menù - Mappa delle Amministrazioni (dati Amministrazione selezionata)

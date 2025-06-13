@@ -1,8 +1,8 @@
 Menù "Cerca Amministrazioni"
 ============================
 
-La piattaforma dispone di un sistema di ricerca avanzata che permette di individuare specifiche pubbliche amministrazioni utilizzando filtri come codice IPA, denominazione dell'ente, codice fiscale, categoria amministrativa, località (comune, provincia, regione). Questa funzionalità semplifica significativamente l’individuazione dell'Amministrazione di cui si ricercano le informazioni e i risultati del monitoraggio.
-L’interfaccia di ricerca avanzata consente il filtraggio degli enti pubblici per codice IPA, denominazione ufficiale, codice fiscale, categoria (es. istituti scolastici, ordini professionali), localizzazione geografica (comune, provincia, regione) e criterio di ordinamento. I risultati restituiti sono immediatamente esplorabili.
+La piattaforma dispone di una funzione di ricerca avanzata (:numref:`ricerca_amministrazioni-img`) che permette di individuare specifiche pubbliche amministrazioni utilizzando filtri. Questa funzionalità semplifica significativamente l’individuazione dell'Amministrazione di cui si ricercano le informazioni e i risultati del monitoraggio.
+Sono presenti filtri per Codice IPA, Denominazione Ente, Codice Fiscale, Categoria (es. Comuni, Istituti scolastici, Ordini professionali), Comune, Provincia, Regione e la selezione del criterio di ordinamento. I risultati della ricerca mostrano le informazioni generali delle Amministrazioni e le funzioni "Controlli", "Storico", "Regole", "Mappe" per l'accesso diretto ai dati dell'Amministrazione selezionata (:numref:`esempio_ricerca_amministrazioni-img`).
 
 .. _ricerca_amministrazioni-img:
 .. figure:: images/ui-ricerca_amministrazioni.png
@@ -10,3 +10,10 @@ L’interfaccia di ricerca avanzata consente il filtraggio degli enti pubblici p
   :alt: Menu - Cerca Amministrazioni
 
   Menù - Cerca Amministrazioni
+
+.. _esempio_ricerca_amministrazioni-img:
+.. figure:: images/ui-cerca_amministrazioni_esempio.png
+  :width: 800
+  :alt: Esempio - ricerca filtro "Denominazione Ente"
+
+  Esempio ricerca filtro "Denominazione Ente"
