@@ -50,8 +50,8 @@ html_title = "Piattaforma TrasparenzAI"
 
 html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
-html_logo = 'logo_trasparenzai_150x150.png'
-latex_logo = 'logo_trasparenzai_300x300.png'
+html_logo = 'logo.png'
+latex_logo = 'logo_trasparenzai_300x300.jpg'
 html_baseurl = 'docs'
 smartquotes = True
 language = "it"
