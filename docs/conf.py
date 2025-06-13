@@ -37,8 +37,12 @@ latex_documents = [
     ('index', 'manuale-trasparenzai.tex', project, author, 'manual'),
 ]
 latex_elements = {
-    'extraclassoptions': 'openany,oneside'
+    'extraclassoptions': 'openany,oneside',
+    'preamble': r'''
+\addto\captionsitalian{\renewcommand{\figurename}{Figura}}
+''',    
 }
+
 epub_basename = u'manuale-trasparenzai'
 
 html_theme = "docs_cnr_theme"
