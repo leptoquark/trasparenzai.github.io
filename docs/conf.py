@@ -38,7 +38,7 @@ latex_documents = [
 latex_elements = {
     'extraclassoptions': 'openany,oneside'
 }
-epub_basename = u'TrasparenzAI'
+epub_basename = u'manuale-trasparenzai'
 
 html_theme = "docs_cnr_theme"
 html_theme_path = [docs_cnr_theme.get_html_theme_path()]
@@ -51,7 +51,7 @@ html_title = "Piattaforma TrasparenzAI"
 html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
 html_logo = 'logo.png'
-latex_logo = 'logo.png'
+latex_logo = 'logo_trasparenzai_1920x1920.png'
 html_baseurl = 'docs'
 smartquotes = True
 language = "it"
