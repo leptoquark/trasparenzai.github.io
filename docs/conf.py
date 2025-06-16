@@ -41,6 +41,7 @@ latex_elements = {
     'preamble': r'''
 \addto\captionsitalian{\renewcommand{\figurename}{Figura}}
 ''',    
+    'babel': '\\usepackage[italian]{babel}',
 }
 
 epub_basename = u'manuale-trasparenzai'
