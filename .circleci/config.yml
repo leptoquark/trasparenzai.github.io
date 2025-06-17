@@ -3,13 +3,9 @@ version: 2
 jobs:
   docs-build:
     docker:
-      - image: ghcr.io/sphinx-doc/sphinx-latexpdf:7.2.6
+      - image: consiglionazionalericerche/sphinx-latex:latest
     steps:
       - checkout
-      - run:
-          name: Install LaTeX Italian Babel package
-          command: |
-            tlmgr install babel-italian      
       - run:
           name: Compile SPHINX
           command: |
