@@ -9,7 +9,7 @@ jobs:
       - run:
           name: Inizializza tlmgr user mode e installa babel-italian
           command: |
-            tlmgr init-usertree
+            tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
             tlmgr install babel-italian      
       - run:
           name: Compile SPHINX
