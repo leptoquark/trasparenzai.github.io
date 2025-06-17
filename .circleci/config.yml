@@ -7,6 +7,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install LaTeX Italian Babel package
+          command: |
+            tlmgr install babel-italian      
+      - run:
           name: Compile SPHINX
           command: |
             apt update
