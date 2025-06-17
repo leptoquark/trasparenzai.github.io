@@ -3,7 +3,7 @@ version: 2
 jobs:
   docs-build:
     docker:
-      - image: ghcr.io/sphinx-doc/sphinx-ci:latest
+      - image: ghcr.io/sphinx-doc/sphinx-latexpdf:8.2.3
     steps:
       - checkout
       - run:
