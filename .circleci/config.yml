@@ -10,8 +10,7 @@ jobs:
           name: Installa LaTeX
           command: |
             sudo apt-get update
-            sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-lang-italian latexmk make ghostscript
-            sudo apt install -y tex-gyre git
+            sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-lang-italian latexmk make ghostscript tex-gyre git
       - run:
           name: Compile SPHINX
           command: |
