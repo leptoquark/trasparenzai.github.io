@@ -3,9 +3,14 @@ version: 2
 jobs:
   docs-build:
     docker:
-      - image: blang/latex:ctanfull
+      - image: ghcr.io/sphinx-doc/sphinx-latexpdf:8.2.3
     steps:
       - checkout
+      - run:
+          name: Inizializza tlmgr user mode e installa babel-italian
+          command: |
+            tlmgr init-usertree
+            tlmgr install babel-italian      
       - run:
           name: Compile SPHINX
           command: |
