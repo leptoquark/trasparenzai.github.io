@@ -11,11 +11,10 @@ jobs:
           command: |
             sudo apt-get update
             sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-lang-italian latexmk make ghostscript
+            sudo apt install -y tex-gyre git
       - run:
           name: Compile SPHINX
           command: |
-            apt update
-            apt install -y tex-gyre git
             pip install -r requirements.txt
             make html
             make epub
