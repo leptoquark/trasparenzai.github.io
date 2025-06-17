@@ -125,6 +125,13 @@ def add_context_data(app, pagename, templatename, context, doctree):
 
         context['docsitalia_data'] = data
 
+def safe_extract_glossary_content(node):
+    """Estrae il nodo contenuto del glossary_toc, se possibile, altrimenti None."""
+    try:
+        return node.children[0].children[0].children[1]
+    except (AttributeError, IndexError):
+        return node  # Fallback: restituisce il nodo così com'è
+    
 def generate_additonal_tocs(app, pagename, templatename, context, doctree):
     """Generate and add additional tocs to Sphinx context"""
     pages_list = []
@@ -151,6 +158,7 @@ def generate_additonal_tocs(app, pagename, templatename, context, doctree):
                         toctreenode['entries'].remove(entry)
 
         toctree_element = TocTree(app.env).resolve(pagename, app.builder, toctreenode, includehidden=True)
+
         try:
             toc_caption = next(child for child in toctree_element.children if isinstance(child, caption))
             toctree_element.children.remove(toc_caption)
@@ -175,7 +183,7 @@ def generate_additonal_tocs(app, pagename, templatename, context, doctree):
         glossary_toc = glossary_tocs[0]
         for glossary_element in glossary_tocs[1:]:
             glossary_toc.extend(glossary_element.children)
-        glossary_toc = glossary_toc.children[0].children[0].children[1]
+        glossary_toc = safe_extract_glossary_content(glossary_toc)
 
     # pages_with_fignumbers = (x for x in pages_list if x in app.env.toc_fignumbers)
     for page in app.env.toc_fignumbers:
