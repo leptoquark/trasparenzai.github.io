@@ -7,6 +7,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Aggiorna pip
+          command: python -m pip install --upgrade pip
+      - run:
           name: Compile SPHINX
           command: |
             apt update

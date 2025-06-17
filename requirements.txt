@@ -1,4 +1,4 @@
-sphinx
+sphinx==8.2.3
 sphinx-new-tab-link
 ./docs-cnr-theme
 recommonmark
