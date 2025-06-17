@@ -16,7 +16,7 @@ jobs:
           command: |
             apt update
             apt install -y tex-gyre git
-            pip install -r requirements.txt
+            pip3 install -r requirements.txt
             make html
             make epub
             make latexpdf
