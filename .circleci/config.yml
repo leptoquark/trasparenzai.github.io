@@ -10,16 +10,13 @@ jobs:
           name: Installa LaTeX
           command: |
             sudo apt-get update
-            sudo apt-get install -y texlive-full
-      - run:
-          name: Installa Sphinx
-          command: pip install sphinx==8.2.3
+            sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-lang-italian latexmk make ghostscript
       - run:
           name: Compile SPHINX
           command: |
             apt update
             apt install -y tex-gyre git
-            pip3 install -r requirements.txt
+            pip install -r requirements.txt
             make html
             make epub
             make latexpdf
