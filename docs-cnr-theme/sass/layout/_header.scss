@@ -358,3 +358,7 @@
 #documentInfo .tag {
   font-family: $font-family-base;
 }
+
+[id] {
+  scroll-margin-top: 78px; /* altezza della navbar */
+}
