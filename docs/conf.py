@@ -24,7 +24,8 @@ source_parsers = {
 
 project = "TrasparenzAI: piattaforma opensource per l’analisi e la consultazione della trasparenza amministrativa"
 release = '1.0.0'
-author = u'Consiglio Nazionale delle Ricerche'
+author = u'a cura di Ivan Duca, Dario Elia, Claudia Greco, Massimo Ianigro, Cristian Lucchesi, Marco Spasiano'
+copyright = '%Y, Consiglio Nazionale delle Ricerche'
 
 # Version è utilizzato per la produzione dell'ePUB
 version = release
