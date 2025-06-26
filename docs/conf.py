@@ -34,7 +34,7 @@ show_authors = True
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'manuale-trasparenzai.tex', project, author, 'manual'),
+    ('index', 'trasparenzai-doc-manual.tex', project, author, 'manual'),
 ]
 latex_elements = {
     'extraclassoptions': 'openany,oneside',
@@ -44,7 +44,7 @@ latex_elements = {
     'babel': '\\usepackage[italian]{babel}',
 }
 
-epub_basename = u'manuale-trasparenzai'
+epub_basename = u'trasparenzai-doc-manual'
 
 html_theme = "docs_cnr_theme"
 html_theme_path = [docs_cnr_theme.get_html_theme_path()]
