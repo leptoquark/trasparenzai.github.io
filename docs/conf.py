@@ -24,7 +24,7 @@ source_parsers = {
 
 project = "TrasparenzAI: piattaforma opensource per l’analisi e la consultazione della trasparenza amministrativa"
 release = u'1.0.0'
-author = "a cura di Ivan Duca, Dario Elia, Claudia Greco, Massimo Ianigro, Cristian Lucchesi, Marco Spasiano"
+author = "autori I. Duca, D. Elia, C. Greco, M. Ianigro, C. Lucchesi, M. Spasiano"
 
 # Version è utilizzato per la produzione dell'ePUB
 version = release
