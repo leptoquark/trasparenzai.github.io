@@ -22,7 +22,7 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
-project = "Piattaforma TrasparenzAI - Analisi e consultazione della trasparenza amministrativa delle Pubbliche Amministrazioni"
+project = "TrasparenzAI: piattaforma opensource per l’analisi e la consultazione della trasparenza amministrativa"
 release = '1.0.0'
 author = u'Consiglio Nazionale delle Ricerche'
 
@@ -57,7 +57,7 @@ html_title = "Piattaforma TrasparenzAI"
 html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
 html_logo = 'logo.png'
-latex_logo = 'logo_trasparenzai_300x300.png'
+latex_logo = 'logo_trasparenzai_400x400.png'
 html_baseurl = 'docs'
 smartquotes = True
 language = "it"
