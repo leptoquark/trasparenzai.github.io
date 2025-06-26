@@ -7,6 +7,6 @@ document:
   github_version: master/docs
   downloads:
     - type: PDF
-      url: ../manuale-trasparenzai.pdf
+      url: ../trasparenzai-doc-manual.pdf
     - type: EPUB
-      url: ../manuale-trasparenzai.epub
+      url: ../trasparenzai-doc-manual.epub
