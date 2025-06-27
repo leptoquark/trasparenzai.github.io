@@ -24,7 +24,7 @@ source_parsers = {
 
 project = "TrasparenzAI: piattaforma opensource per l’analisi e la consultazione della trasparenza amministrativa"
 release = u'1.0.0'
-author = "autori I. Duca, D. Elia, C. Greco, M. Ianigro, C. Lucchesi, M. Spasiano"
+author = "Consiglio Nazionale delle Ricerche"
 
 # Version è utilizzato per la produzione dell'ePUB
 version = release
@@ -57,7 +57,7 @@ html_title = "Piattaforma TrasparenzAI"
 html_show_sourcelink = True
 html_favicon = "_static/images/favicon.ico"
 html_logo = 'logo.png'
-latex_logo = 'logo_trasparenzai_800x800.png'
+latex_logo = 'logo_trasparenzai_900x900.jpg'
 html_baseurl = 'docs'
 smartquotes = True
 language = "it"
