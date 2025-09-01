@@ -9,7 +9,7 @@ Il Decreto Legislativo 14 marzo 2013, n. 33 recante "Riordino della disciplina r
 
 Tuttavia, l’applicazione di questa normativa si è rivelata nel tempo complessa e disomogenea, generando difficoltà sia per le amministrazioni stesse, che devono gestire la pubblicazione e l’aggiornamento dei dati, sia per gli utenti finali, che incontrano difficoltà nell’individuazione e nella consultazione delle informazioni.
 
-A fronte di queste criticità, la **piattaforma TrasparenzAI** (realizzata nell'ambito della collaborazione istituzionale tra Consiglio Nazionale delle Ricerche :term:`CNR` e Autorità Nazionale Anticorruzione :term:`ANAC`) nasce con lo scopo di semplificare e rendere più efficiente l’accesso e il monitoraggio delle informazioni pubblicate nella sezione :term:`Amministrazione Trasparente` dei siti delle amministrazioni pubbliche.
+A fronte di queste criticità, la **piattaforma TrasparenzAI**, realizzata nell'ambito della collaborazione istituzionale tra Consiglio Nazionale delle Ricerche (:term:`CNR`) e Autorità Nazionale Anticorruzione (:term:`ANAC`), nasce con lo scopo di semplificare e rendere più efficiente l’accesso e il monitoraggio delle informazioni pubblicate nella sezione :term:`Amministrazione Trasparente` dei siti delle amministrazioni pubbliche.
 
 La piattaforma è disponibile all'indirizzo:
  - https://trasparenzai.anticorruzione.it
